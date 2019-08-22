@@ -5,6 +5,7 @@ body{
     height: 100%;
     background: linear-gradient(90deg,rgb(192, 91, 91) 50%, #fff 50%);
 }
+
 .header h1{
     width: 100%;
     background-color: rgba(76, 68, 68, 0.5);
@@ -21,40 +22,46 @@ body{
 }
 .game_container{
     width: auto;
-    height: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     background: rgb(202, 150, 150);
+    text-align: center;
 }
+
 .imageSet{
 
-    margin: 0 auto;
-    width: 525px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
 }
+
 #firstBtn{
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    width: 125px;
-    height: 125px;
+    width: 100px;
+    height: 100px;
 }
 #firstBtn:hover{
-    width: 130px;
-    height: 130px;
+    width: 20%;
+    height: 20%;
     transition: 0.6s ease;
 }
 #secondBtn:hover{
-    width: 130px;
-    height: 130px;
+    width: 20%;
+    height: 20%;
     transition: 0.6s ease;
 }
 #thirdBtn:hover{
-    width: 130px;
-    height: 130px;
+    width: 20%;
+    height: 20%;
     transition: 0.6s ease;
 }
 #fourthBtn:hover{
-    width: 130px;
-    height: 130px;
+    width: 20%;
+    height: 20%;
     transition: 0.6s ease;
 }
 
@@ -62,22 +69,22 @@ body{
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    width: 125px;
-    height: 125px;
+    width: 100px;
+    height: 100px;
 }
 #thirdBtn{
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    width: 125px;
-    height: 125px;
+    width: 100px;
+    height: 100px;
 }
 #fourthBtn{
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    width: 125px;
-    height: 125px;
+    width: 100px;
+    height: 100px;
 }
 .wrapper{
     text-align: center;
