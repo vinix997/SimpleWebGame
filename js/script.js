@@ -11,7 +11,7 @@ document.getElementById("firstBtn").onclick=firstBtn;
 document.getElementById("secondBtn").onclick=secondBtn;
 document.getElementById("thirdBtn").onclick=thirdBtn;
 document.getElementById("fourthBtn").onclick=fourthBtn;
-
+//first button
 function firstBtn()
 {
     score+= firstValue;
