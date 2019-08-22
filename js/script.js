@@ -28,6 +28,7 @@ function firstBtn()
         location.reload();
     }
 }
+//second
 function secondBtn()
 {
     score+= secondValue;
