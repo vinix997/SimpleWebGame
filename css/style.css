@@ -1,0 +1,102 @@
+body{
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,rgb(192, 91, 91) 50%, #fff 50%);
+}
+.header h1{
+    width: 100%;
+    background-color: rgba(76, 68, 68, 0.5);
+    text-align: center;
+}
+.header h2{
+    padding-left: 50px;
+}
+.header p{
+    padding-left: 50px;
+}
+.game_container h1{
+    text-align: center;
+}
+.game_container{
+    width: auto;
+    height: 100%;
+    background: rgb(202, 150, 150);
+}
+.imageSet{
+
+    margin: 0 auto;
+    width: 525px;
+
+}
+#firstBtn{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px;
+    height: 125px;
+}
+#firstBtn:hover{
+    width: 130px;
+    height: 130px;
+    transition: 0.6s ease;
+}
+#secondBtn:hover{
+    width: 130px;
+    height: 130px;
+    transition: 0.6s ease;
+}
+#thirdBtn:hover{
+    width: 130px;
+    height: 130px;
+    transition: 0.6s ease;
+}
+#fourthBtn:hover{
+    width: 130px;
+    height: 130px;
+    transition: 0.6s ease;
+}
+
+#secondBtn{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px;
+    height: 125px;
+}
+#thirdBtn{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px;
+    height: 125px;
+}
+#fourthBtn{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px;
+    height: 125px;
+}
+.wrapper{
+    text-align: center;
+}
+#button{
+    margin-top: 40px;
+
+    height: 40px;
+    width: 40%;
+    color: black;
+    font-size: 22px;
+    background-color: gray;
+    border: none;
+    border-radius: 2px;
+    border: 2px solid #030303;
+}
+#button:hover{
+    transition: .5s;
+    color: #d5dbdd;
+    border: 2px solid #000000;
+    background: linear-gradient(#b665a1, #c03434);
+}
