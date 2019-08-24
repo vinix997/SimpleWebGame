@@ -1,0 +1,16 @@
+{
+    "name": "My First Simple Game",
+    "short_name": "MySWG",
+    "description": "Play for free",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#00897B",
+    "theme_color": "#00897B",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
